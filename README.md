@@ -27,7 +27,7 @@ sudo yum install -y expect git
 ### 以下のコマンドで一式をダウンロード＆解凍する。
 
 ```shell
-wget https://github.com/yagrush/setup-github-ssh/archive/master.zip -O setup-github-ssh.zip; unzip setup-github-ssh.zip; rm setup-github-ssh.zip
+wget https://github.com/yagrush/setup-github-ssh/archive/master.zip -O setup-github-ssh.zip; unzip setup-github-ssh.zip; rm -f setup-github-ssh.zip
 
 #ついでにディレクトリを移動しておく
 cd setup-github-ssh-master
