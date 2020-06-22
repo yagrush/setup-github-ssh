@@ -35,7 +35,7 @@ cd setup-github-ssh-master
 
 <br />
 
-### `setup-github-ssh-setting.sh` の中身を、ご自身の設定に合わせて書き換える。
+### `setting.sh` の中身を、ご自身の設定に合わせて書き換える。
 
 ```shell
 export GIT_EMAIL="hogehoge@users.noreply.github.com"
