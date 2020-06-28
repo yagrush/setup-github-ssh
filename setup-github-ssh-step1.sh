@@ -7,7 +7,7 @@ export SSH_KEY_NAME="$HOME/.ssh/id_rsa.GitHub_$GIT_USER"
 cat - << EOS > ~/ssh-kg.sh
 #!/bin/bash
 expect -c "
-spawn ssh-keygen -t rsa -C \"$GIT_EMAIL\" -f $SSH_KEY_NAME
+spawn ssh-keygen -t rsa -b 4096 -C \"$GIT_EMAIL\" -f $SSH_KEY_NAME
 expect \"Enter passphrase (empty for no passphrase):\"
 send \"\n\"
 expect \"Enter same passphrase again:\"
